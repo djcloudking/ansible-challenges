@@ -9,9 +9,9 @@ Ansible is an open-source automation tool that simplifies complex tasks and work
 Ansible playbooks are essentially scripts written in YAML format. They are used to define the tasks and configurations that Ansible will apply to your servers.
 
 
-## Playbook Basics
+## Ansible Playbook Best Practices 
 
-Always create a text file in YAML format for your playbook. 
+- Always create a text file in YAML format for your playbook. 
 
 - Remember to start with three dashes (---) and use spaces not tabs for indentation.
 
@@ -22,7 +22,6 @@ Always create a text file in YAML format for your playbook.
 **tasks**: The actions Ansible will perform.
 
 **become**: Allows privilege escalation (running tasks with elevated privileges).
-
 
 
 ### Step 1: Create your first playbook
@@ -47,8 +46,11 @@ Always create a text file in YAML format for your playbook.
 *The user module is used to manage user accounts.*
 
 
+### Step 2: Run the playbook
 
-### Step 2: 
+- Execute your playbook using the ansible-navigator command:
+
+
 
 ### Step 3: 
 
