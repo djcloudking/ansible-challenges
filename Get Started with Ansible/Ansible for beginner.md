@@ -27,9 +27,25 @@ Always create a text file in YAML format for your playbook.
 
 ### Step 1: Create your first playbook
 
-- Before creating your first playbook, ensure you are in the correct directory by changing to ~/lab_inventory:
+- Before creating your first playbook, ensure you are in the correct directory by changing to ~/dj_inventory: type cd dj_inventory
 
-cd ~/lab_inventory
+- Now create a playbook named **system_setup.yml** to perform basic system setup:
+
+    - Update all security related packages.
+    
+    - Create a new user named ‘djuser’.
+
+- The basic structure looks as follows:
+
+
+
+
+*Cheat Sheat : Updating the packages may take a few minutes prior to the Ansible playbook completing.*
+
+*The dnf module is used for package management with DNF (Dandified YUM) on RHEL and other Fedora-based systems.*
+
+*The user module is used to manage user accounts.*
+
 
 
 ### Step 2: 
