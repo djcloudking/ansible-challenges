@@ -24,6 +24,13 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 **become**: Allows privilege escalation (running tasks with elevated privileges).
 
 
+## Pre-requisite
+
+- Install Ansible.
+
+- Knowledge of YAML.
+
+
 ### Step 1: Create your first playbook
 
 - Before creating your first playbook, ensure you are in the correct directory by changing to ~/dj_inventory: type cd dj_inventory
