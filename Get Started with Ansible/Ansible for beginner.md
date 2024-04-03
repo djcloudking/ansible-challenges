@@ -52,6 +52,13 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 
 
 
-### Step 3: 
+### Step 3: Check playbook
 
-### Step 4: 
+- Now, let’s create a second playbook for post-configuration checks, named system_checks.yml:
+
+
+
+- Run the checks playbook:
+
+
+- Review the output to ensure the user creation was successful.
