@@ -44,6 +44,7 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 - The basic structure looks as follows:
 
 
+![image](https://github.com/djcloudking/ansible-challenges/assets/122766532/566080e9-3d8f-4041-a221-74eb27081447)
 
 
 *Cheat Sheat : Updating the packages may take a few minutes prior to the Ansible playbook completing.*
@@ -57,7 +58,19 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 
 - Make sure Ansible is installed on your system. If not, you can install Ansible using package managers like *apt*, *yum*, or *pip*, depending on your operating system. 
 
-- In my case, I am using Ubuntu systems. For that reason, I can install Ansible using the commands: sudo apt update and sudo apt install ansible. 
+- In my case, I am using Ubuntu systems. For that reason, I can install Ansible using the commands:
+
+    - sudo apt update
+      
+
+  ![image](https://github.com/djcloudking/ansible-challenges/assets/122766532/04ebeb2c-89d5-4400-b18a-2c438d5c24c2)
+  
+
+    - and sudo apt install ansible. 
+
+
+![image](https://github.com/djcloudking/ansible-challenges/assets/122766532/2cc672fc-1482-4298-8c90-47983d9f10df)
+
 
 - Execute your playbook using this command: ansible-playbook system_setup.yml
 
