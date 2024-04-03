@@ -26,7 +26,7 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 
 ## Pre-requisite
 
-- Install Ansible.
+- Ansible Installed.
 
 - Knowledge of YAML.
 
@@ -55,17 +55,13 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 
 ### Step 2: Run the playbook
 
-- Execute your playbook using the ansible-navigator command:
+- Make sure Ansible is installed on your system. If not, you can install Ansible using package managers like *apt*, *yum*, or *pip*, depending on your operating system. 
+
+- In my case, I am using Ubuntu systems. For that reason, I can install Ansible using the commands: sudo apt update and sudo apt install ansible. 
+
+- Execute your playbook using this command: ansible-playbook system_setup.yml
 
 
-
-### Step 3: Check playbook
-
-- Now, let’s create a second playbook for post-configuration checks, named system_checks.yml:
-
-
-
-- Run the checks playbook:
-
+### Step 3: Review 
 
 - Review the output to ensure the user creation was successful.
