@@ -15,7 +15,7 @@
 
 ![image](https://github.com/djcloudking/ansible-challenges/assets/122766532/2cc672fc-1482-4298-8c90-47983d9f10df)
 
-- Execute your playbook using this command: ansible-playbook system_setup.yml
+- Execute your playbook using this command: ansible-playbook system_setup.yml.
 
 # Step 3: Review 
 
