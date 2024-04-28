@@ -17,7 +17,7 @@ Ansible playbooks are essentially scripts written in YAML format. They are used 
 
 ***Key Concepts:***
 
-**hosts**: Specifies the target servers or devices for your playbook to run against.
+**hosts**: Specifies the target servers or devices for your playbook to run against
 
 **tasks**: The actions Ansible will perform.
 
