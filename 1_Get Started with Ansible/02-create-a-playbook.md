@@ -12,7 +12,7 @@
 
 ![image](https://github.com/djcloudking/ansible-challenges/assets/122766532/566080e9-3d8f-4041-a221-74eb27081447)
 
-*Cheat Sheat : Updating the packages may take a few minutes prior to the Ansible playbook completing.*
+*Cheat Sheat : Updating the packages may take a few minutes prior to the Ansible playbook completing*.
 
 *The dnf module is used for package management with DNF (Dandified YUM) on RHEL and other Fedora-based systems.*
 
