@@ -3,7 +3,7 @@
   hosts: node1
   become: true
   tasks:
-    - name: Update all security-related packages
+    - name: Update all security-related package
       ansible.builtin.dnf:
         name: '*'
         state: latest
